@@ -1,7 +1,7 @@
 '''
 @Author: Chase Huang
 @Date: 2019-06-05 15:26:47
-@LastEditTime: 2019-06-05 17:01:35
+@LastEditTime: 2019-06-09 16:04:51
 @Description: get the data from the jobleadchina website
 '''
 import requests
