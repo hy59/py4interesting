@@ -1,7 +1,7 @@
 '''
 @Author: Chase Huang
 @Date: 2019-06-05 16:43:42
-@LastEditTime: 2019-06-05 19:53:12
+@LastEditTime: 2019-06-10 10:11:13
 @Description: get the local englisgh teacher job data from job910.com
 '''
 import requests
