@@ -1,0 +1,9 @@
+url = 'https://travelsearch.fliggy.com/async/queryItemResult.do?searchType=product&keyword=%E6%88%90%E9%83%BD&category=SCENIC&pagenum=1'
+page_num = data['data']['data']['itemPagenum']['data']['count']
+place_info =  data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']
+place_title = data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['title']
+soldRecentNum = data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['soldRecentNum']
+discountPrice = data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['discountPrice']
+price = data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['price']
+desc = data['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['features'][0]['text']
+tag = ata['data']['data']['itemProducts']['data']['list'][0]['auctions']['index']['fields']['tagList'][0]['text']
