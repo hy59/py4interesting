@@ -2,7 +2,7 @@
 @Description: get data from https://www.fliggy.com
 @Author: Chase Huang
 @Date: 2019-06-09 16:44:23
-@LastEditTime: 2019-06-12 16:42:29
+@LastEditTime: 2019-06-13 10:11:39
 '''
 
 import requests
