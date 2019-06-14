@@ -19,6 +19,7 @@
 #### 数据(data/)
 - **city_data.csv**：全国城市数据
 - **flypig.csv**：飞猪网全国景点门票数据
+- **json_find.txt**：需要爬取得属性的定位
 
 #### 运行环境
 - python3.6
