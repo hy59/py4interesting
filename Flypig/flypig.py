@@ -2,7 +2,7 @@
 @Description: get data from https://www.fliggy.com
 @Author: Chase Huang
 @Date: 2019-06-09 16:44:23
-@LastEditTime: 2019-06-13 10:11:39
+@LastEditTime: 2019-06-14 14:57:44
 '''
 
 import requests
@@ -62,10 +62,10 @@ class FlyPig(object):
     def save_data(save_data, page):
         if page == '1':
             save_data.to_csv(
-                'data/flypig.csv', index=False, mode='a', header=True)
+                'data/flypig.csv', index=False, mode='a', headers=True)
         else:
             save_data.to_csv(
-                'data/flypig.csv', index=False, mode='a', header=False)
+                'data/flypig.csv', index=False, mode='a', headers=False)
 
 
 if __name__ == "__main__":
